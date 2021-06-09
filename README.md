@@ -19,59 +19,19 @@ Here are some ideas to get you started:
 
 ## My notable projects
 
-* [**BackupMonitor**](https://github.com/ITGlobal/backupmonitor)
-
-  Small server-side app that serves a simple purpose: to receive, manage and monitor various backups.
-  Written in Golang/TypeScript (Angular).
-
-* [**ITGlobal.MarkDocs**](https://github.com/ITGlobal/MarkDocs)
-
-  MarkDocs - an ASP.NET Core embeddable (and standalone) documentation engine with MarkDown syntax.
-  Written in C#.
-
-* [**ITGlobal.CLI**](https://github.com/ITGlobal/CLI)
-
-  A library to help build a pretty command-line app.
-  Written in C#.
-
-* [**dotnet-package-cache-gen**](https://github.com/ITGlobal/dotnet-package-cache-gen)
-
-  Tiny tool to generate cache files for .NET SDK projects.
-  Written in C#.
-
-* [**slack-uptime-monitor**](https://github.com/ITGlobal/slack-uptime-monitor)
-
-  Monitors specified endpoints and send change notifications to Slack.
-  Written in Golang.
-
-* [**ITGlobal.RestMock**](https://github.com/ITGlobal/RestMock)
-
-  A small library to mock HTTP services. Its primary goal is to simplify writing integration tests for RESTful microservices.
-  Written in C#.
-
-* [**tg-waqi-bot**](https://github.com/kapitanov/tg-waqi-bot)
-
-  A telegram bot that provides current air quality status (with updates). Data is provided by https://waqi.info.
-  Written in Golang.
-
-* [**auto-github-backup**](https://github.com/kapitanov/auto-github-backup)
-
-  Automatic backup of GitHub repos to S3.
-  Written in Python.
-
-* [**vscode-retro-green-theme**](https://github.com/kapitanov/vscode-retro-green-theme)
-
-  An old-style green theme for VSCode
-
-* [**habrabot**](https://github.com/kapitanov/habrabot)
-
-  RSS Telegram bot for Habr.com.
-  Written in Golang.
-
-* [**natandb**](https://github.com/kapitanov/natandb)
-* 
-  A key-value (or more exactly key-array) standalone database written just for fun.
-  Written in Golang.
+|                                                                        | Project                                                                               | Lang                                                                                                                                | Description                                                                                                                 |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**BackupMonitor**](https://github.com/ITGlobal/backupmonitor)                        | ![](https://img.shields.io/badge/-Go-blue?style=flat-square) ![](https://img.shields.io/badge/-TypeScript-2f74c0?style=flat-square) | Small server-side app that serves a simple purpose: to receive, manage and monitor various backups.                         |
+| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**ITGlobal.MarkDocs**](https://github.com/ITGlobal/MarkDocs)                         | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | MarkDocs - an ASP.NET Core embeddable (and standalone) documentation engine with MarkDown syntax                            |
+| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**ITGlobal.CLI**](https://github.com/ITGlobal/CLI)                                   | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | A library to help build a pretty command-line app                                                                           |
+| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**dotnet-package-cache-gen**](https://github.com/ITGlobal/dotnet-package-cache-gen)  | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | Tiny tool to generate cache files for .NET SDK projects                                                                     |
+| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**slack-uptime-monitor**](https://github.com/ITGlobal/slack-uptime-monitor)          | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | Monitors specified endpoints and send change notifications to Slack.                                                        |
+| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**ITGlobal.RestMock**](https://github.com/ITGlobal/RestMock)                         | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | A small library to mock HTTP services. Its primary goal is to simplify writing integration tests for RESTful microservices. |
+| ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**tg-waqi-bot**](https://github.com/kapitanov/tg-waqi-bot)                           | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | A telegram bot that provides current air quality status (with updates). Data is provided by [waqi.info](https://waqi.info). |
+| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**auto-github-backup**](https://github.com/kapitanov/auto-github-backup)             | ![](https://img.shields.io/badge/-Python-0662b9?style=flat-square)                                                                  | Automatic backup of GitHub repos to S3                                                                                      |
+| ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**vscode-retro-green-theme**](https://github.com/kapitanov/vscode-retro-green-theme) |                                                                                                                                     | An old-style green theme for VSCode.                                                                                        |
+| ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**habrabot**](https://github.com/kapitanov/habrabot)                                 | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | RSS Telegram bot for [habr.com](https://habr.com/)                                                                          |
+| ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**natandb**](https://github.com/kapitanov/natandb)                                   | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | A key-value (or more exactly key-array) standalone database written just for fun.                                           |
 
 ---
 
