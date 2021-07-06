@@ -74,3 +74,5 @@ Here are some ideas to get you started:
 ---
 
 ![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kapitanov&hide=logos,g-code,hlsl)
+
+![thophies](https://github-profile-trophy.vercel.app/?username=kapitanov&column=8)
