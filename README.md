@@ -73,4 +73,4 @@ Here are some ideas to get you started:
 
 ---
 
-![github stats](https://github-readme-stats.vercel.app/api?username=kapitanov&show_icons=true)
+![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kapitanov&hide=logos,g-code,hlsl)
