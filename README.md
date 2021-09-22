@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 # Hi there 👋 I'm Albert
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kapitanov&show_icons=true&hide_border=true&hide_title=true)
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kapitanov&hide_border=true&layout=compact)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kapitanov&hide_border=true&layout=compact&hide=logos,g-code,hlsl)
 
 ## Social
 
@@ -62,6 +62,7 @@ Here are some ideas to get you started:
 
 |                                                                        | Project                                                                               | Lang                                                                                                                                | Description                                                                                                                 |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**MOEX Bond Recommender**](https://github.com/kapitanov/moex-bond-recommender)       | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | A web service that provides basic analytics on MOEX's bonds.                                                                |
 | ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**BackupMonitor**](https://github.com/ITGlobal/backupmonitor)                        | ![](https://img.shields.io/badge/-Go-blue?style=flat-square) ![](https://img.shields.io/badge/-TypeScript-2f74c0?style=flat-square) | Small server-side app that serves a simple purpose: to receive, manage and monitor various backups.                         |
 | ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**ITGlobal.MarkDocs**](https://github.com/ITGlobal/MarkDocs)                         | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | MarkDocs - an ASP.NET Core embeddable (and standalone) documentation engine with MarkDown syntax                            |
 | ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**ITGlobal.CLI**](https://github.com/ITGlobal/CLI)                                   | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | A library to help build a pretty command-line app                                                                           |
@@ -75,7 +76,5 @@ Here are some ideas to get you started:
 | ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**natandb**](https://github.com/kapitanov/natandb)                                   | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | A key-value (or more exactly key-array) standalone database written just for fun.                                           |
 
 ---
-
-![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kapitanov&hide=logos,g-code,hlsl)
 
 ![thophies](https://github-profile-trophy.vercel.app/?username=kapitanov&column=8)
