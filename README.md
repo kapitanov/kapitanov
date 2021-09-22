@@ -15,6 +15,9 @@ Here are some ideas to get you started:
 
 # Hi there 👋 I'm Albert
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kapitanov&show_icons=true&hide_border=true&hide_title=true)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kapitanov&hide_border=true&layout=compact)
+
 ## Social
 
 * [![Linkedin Badge](https://img.shields.io/badge/-@albertkapitanov-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/albertkapitanov/)](https://www.linkedin.com/in/albertkapitanov)
