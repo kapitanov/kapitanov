@@ -15,12 +15,17 @@ Here are some ideas to get you started:
 
 # Hi there 👋 I'm Albert
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kapitanov&show_icons=true&hide_border=true&hide_title=true)
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kapitanov&hide_border=true&layout=compact&hide=logos,g-code,hlsl)
+I am a backend developer with a focus on software design and architecture having 10+ years of experience. I've engaged in the
+development and support of web and desktop applications, both developing new features and migrating from legacy stack
+to modern technologies and tools. My main responsibilities were design and development of server parts of web applications,
+development of desktop applications for Windows, database and infrastructure design.
+
+My primary programming language and platform are C#/.NET (Core) and Golang. Also I have notable experience JavaScript ecosystem including frontend development and development of utilitary web services on NodeJS platform.
 
 ## Social
 
-* [![Linkedin Badge](https://img.shields.io/badge/-@albertkapitanov-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/albertkapitanov/)](https://www.linkedin.com/in/albertkapitanov)
+[![Linkedin Badge](https://img.shields.io/badge/-@albertkapitanov-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/albertkapitanov/)](https://www.linkedin.com/in/albertkapitanov)
+[![Linkedin Badge](https://img.shields.io/badge/-@albertkapitanov-black?style=for-the-badge&logo=github&logoColor=white&link=[https://www.linkedin.com/in/albertkapitanov/](https://github.com/kapitanov))](https://github.com/kapitanov)
 
 ## Skills
 
@@ -76,5 +81,8 @@ Here are some ideas to get you started:
 | ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**natandb**](https://github.com/kapitanov/natandb)                                   | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | A key-value (or more exactly key-array) standalone database written just for fun.                                           |
 
 ---
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kapitanov&show_icons=true&hide_border=true&hide_title=true)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kapitanov&hide_border=true&layout=compact&hide=logos,g-code,hlsl)
 
 ![thophies](https://github-profile-trophy.vercel.app/?username=kapitanov&column=8)
