@@ -113,20 +113,87 @@ My primary programming language and platform are C#/.NET (Core) and Golang. Also
 
 ## My notable projects
 
-|                                                                        | Project                                                                               | Lang                                                                                                                                | Description                                                                                                                 |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**MOEX Bond Recommender**](https://github.com/kapitanov/moex-bond-recommender)       | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | A web service that provides basic analytics on MOEX's bonds.                                                                |
-| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**BackupMonitor**](https://github.com/ITGlobal/backupmonitor)                        | ![](https://img.shields.io/badge/-Go-blue?style=flat-square) ![](https://img.shields.io/badge/-TypeScript-2f74c0?style=flat-square) | Small server-side app that serves a simple purpose: to receive, manage and monitor various backups.                         |
-| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**ITGlobal.MarkDocs**](https://github.com/ITGlobal/MarkDocs)                         | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | MarkDocs - an ASP.NET Core embeddable (and standalone) documentation engine with MarkDown syntax                            |
-| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**ITGlobal.CLI**](https://github.com/ITGlobal/CLI)                                   | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | A library to help build a pretty command-line app                                                                           |
-| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**dotnet-package-cache-gen**](https://github.com/ITGlobal/dotnet-package-cache-gen)  | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | Tiny tool to generate cache files for .NET SDK projects                                                                     |
-| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**slack-uptime-monitor**](https://github.com/ITGlobal/slack-uptime-monitor)          | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | Monitors specified endpoints and send change notifications to Slack.                                                        |
-| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**ITGlobal.RestMock**](https://github.com/ITGlobal/RestMock)                         | ![](https://img.shields.io/badge/-C%23-4e2acd?style=flat-square)                                                                    | A small library to mock HTTP services. Its primary goal is to simplify writing integration tests for RESTful microservices. |
-| ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**tg-waqi-bot**](https://github.com/kapitanov/tg-waqi-bot)                           | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | A telegram bot that provides current air quality status (with updates). Data is provided by [waqi.info](https://waqi.info). |
-| ![](https://img.shields.io/badge/-Production-007F0E?style=flat-square) | [**auto-github-backup**](https://github.com/kapitanov/auto-github-backup)             | ![](https://img.shields.io/badge/-Python-0662b9?style=flat-square)                                                                  | Automatic backup of GitHub repos to S3                                                                                      |
-| ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**vscode-retro-green-theme**](https://github.com/kapitanov/vscode-retro-green-theme) |                                                                                                                                     | An old-style green theme for VSCode.                                                                                        |
-| ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**habrabot**](https://github.com/kapitanov/habrabot)                                 | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | RSS Telegram bot for [habr.com](https://habr.com/)                                                                          |
-| ![](https://img.shields.io/badge/-Pet-blue?style=flat-square)          | [**natandb**](https://github.com/kapitanov/natandb)                                   | ![](https://img.shields.io/badge/-Go-blue?style=flat-square)                                                                        | A key-value (or more exactly key-array) standalone database written just for fun.                                           |
+### [Moex Bond Recommender](https://github.com/kapitanov/moex-bond-recommender)
+
+A web service that provides basic analytics on MOEX's bonds.
+
+Web service models a single investing strategy:
+acquiring a bond on its current market price and holding a position until bond's maturiry.
+
+Service evaluates:
+
+* amount to invest
+* sum of payments till maturity
+* personal income tax
+* profit/loss (both relative and absolute)
+* a normalized interest rate till maturity
+
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![PostreSQL](https://img.shields.io/badge/PostreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+### [Backup Monitor](https://github.com/ITGlobal/backupmonitor)
+
+Small server-side app that serves a simple purpose: to receive, manage and monitor various backups.
+
+Features:
+
+* App receives a generic backup files via HTTP(S)
+* App stores backups either on local filesystem or on any S3-compatible service
+* App keeps at least N last backups for each target
+* App notifies your team via Slack/Telegram/Webhooks if something goes wrong
+
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-%23B52E31.svg?style=for-the-badge&logo=angular&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31.svg?style=for-the-badge&logo=amazons3&logoColor=white)
+
+### [dotnet-package-cache-gen](https://github.com/ITGlobal/dotnet-package-cache-gen)
+
+Tiny tool to generate cache files for Docker-powered .NET SDK projects.
+
+This toos helps you to setup a docker-based builds for .NET Core projects with proper Docker image caching.
+
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+### [habrabot](https://github.com/kapitanov/habrabot)
+
+A telegram bot that publishes items from an RSS feed into a Telegram channel.
+
+Inially it has been written for [habr.com](https://habr.com) but can be used for any RSS feed.
+
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4.svg?style=for-the-badge&logo=telegram&logoColor=white)
+
+### [auto-github-backup](https://github.com/kapitanov/auto-github-backup)
+
+This app makes a backup daily of your GitHub repositories, uploads them to S3 object storage and keeps up to defined number of backups.
+
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31.svg?style=for-the-badge&logo=amazons3&logoColor=white)
+
+### [ITGlobal.CLI](https://github.com/ITGlobal/CLI)
+
+`ITGlobal.CLI` is a powerful library to build used-friendly command-line applications wit C#.
+
+Features:
+
+* Colored console output
+* Ctrl+C/SIGINT interceptor
+* Unified error handling
+* No-Colors mode
+* Command line parser (supporting switches, options, positional arguments, nested commands and built-in auto generated help)
+* ASCII tables (both data-driven tables and free-format (fluent) tables)
+* Terminal live output (including spinners, progress bars and live text entries)
+
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ---
 
