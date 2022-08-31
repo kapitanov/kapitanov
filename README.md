@@ -22,7 +22,7 @@ development of desktop applications for Windows, database and infrastructure des
 
 My primary programming language and platform are C#/.NET (Core) and Golang. Also I have notable experience JavaScript ecosystem including frontend development and development of utilitary web services on NodeJS platform.
 
-## Social
+# Social
 
 [![Linkedin Badge](https://img.shields.io/badge/-@albertkapitanov-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/albertkapitanov/)](https://www.linkedin.com/in/albertkapitanov)
 [![Linkedin Badge](https://img.shields.io/badge/-@kapitanov-black?style=for-the-badge&logo=github&logoColor=white&link=[https://www.linkedin.com/in/albertkapitanov/](https://github.com/kapitanov))](https://github.com/kapitanov)
