@@ -160,6 +160,14 @@ This toos helps you to setup a docker-based builds for .NET Core projects with p
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
+## [notion2html](https://github.com/kapitanov/notion2html)
+
+An app than generates a static website from [Notion](https://www.notion.so/) and watches for changes.
+
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+
 ## [habrabot](https://github.com/kapitanov/habrabot)
 
 A telegram bot that publishes items from an RSS feed into a Telegram channel.
