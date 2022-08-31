@@ -27,7 +27,7 @@ My primary programming language and platform are C#/.NET (Core) and Golang. Also
 [![Linkedin Badge](https://img.shields.io/badge/-@albertkapitanov-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/albertkapitanov/)](https://www.linkedin.com/in/albertkapitanov)
 [![Linkedin Badge](https://img.shields.io/badge/-@kapitanov-black?style=for-the-badge&logo=github&logoColor=white&link=[https://www.linkedin.com/in/albertkapitanov/](https://github.com/kapitanov))](https://github.com/kapitanov)
 
-## Skills
+# Skills
 
 * **Backend**
 
@@ -111,9 +111,9 @@ My primary programming language and platform are C#/.NET (Core) and Golang. Also
   ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
   ![Subversion](https://img.shields.io/badge/Subversion-809CC9?style=for-the-badge&logo=subversion&logoColor=black&color=black&labelColor=green)
 
-## My notable projects
+# My notable projects
 
-### [Moex Bond Recommender](https://github.com/kapitanov/moex-bond-recommender)
+## [Moex Bond Recommender](https://github.com/kapitanov/moex-bond-recommender)
 
 A web service that provides basic analytics on MOEX's bonds.
 
@@ -132,7 +132,7 @@ Service evaluates:
 ![PostreSQL](https://img.shields.io/badge/PostreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-### [Backup Monitor](https://github.com/ITGlobal/backupmonitor)
+## [Backup Monitor](https://github.com/ITGlobal/backupmonitor)
 
 Small server-side app that serves a simple purpose: to receive, manage and monitor various backups.
 
@@ -150,7 +150,7 @@ Features:
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31.svg?style=for-the-badge&logo=amazons3&logoColor=white)
 
-### [dotnet-package-cache-gen](https://github.com/ITGlobal/dotnet-package-cache-gen)
+## [dotnet-package-cache-gen](https://github.com/ITGlobal/dotnet-package-cache-gen)
 
 Tiny tool to generate cache files for Docker-powered .NET SDK projects.
 
@@ -160,7 +160,7 @@ This toos helps you to setup a docker-based builds for .NET Core projects with p
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-### [habrabot](https://github.com/kapitanov/habrabot)
+## [habrabot](https://github.com/kapitanov/habrabot)
 
 A telegram bot that publishes items from an RSS feed into a Telegram channel.
 
@@ -170,7 +170,7 @@ Inially it has been written for [habr.com](https://habr.com) but can be used for
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-26A5E4.svg?style=for-the-badge&logo=telegram&logoColor=white)
 
-### [auto-github-backup](https://github.com/kapitanov/auto-github-backup)
+## [auto-github-backup](https://github.com/kapitanov/auto-github-backup)
 
 This app makes a backup daily of your GitHub repositories, uploads them to S3 object storage and keeps up to defined number of backups.
 
@@ -178,7 +178,7 @@ This app makes a backup daily of your GitHub repositories, uploads them to S3 ob
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31.svg?style=for-the-badge&logo=amazons3&logoColor=white)
 
-### [ITGlobal.CLI](https://github.com/ITGlobal/CLI)
+## [ITGlobal.CLI](https://github.com/ITGlobal/CLI)
 
 `ITGlobal.CLI` is a powerful library to build used-friendly command-line applications wit C#.
 
