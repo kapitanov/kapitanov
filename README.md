@@ -30,6 +30,31 @@ My primary programming language and platform are C#/.NET (Core) and Golang. Also
 
 # My notable projects
 
+## [GoScope.net](https://github.com/kapitanov/goscope.net)
+
+A small set of tools to expore state of Golang programs.
+
+GoScope has the following features:
+
+- Explore Goroutines stack traces dump.
+  This feature lets you take a deep look at the output of /debug/pprof/goroutine?debug=2 endpoint of your Golang application.
+- Explore Benchmark results.
+  This feature lets you take a pretty look at the output of your Go benchmarks.
+
+[Visit website →](https://goscope.net/)
+
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+
+## [xgoimports](https://github.com/kapitanov/xgoimports)
+
+A better goimports that keeps your imports sorted and grouped nicely.
+
+It's a drop-in replacement for `goimports` that forcibly reformats `import` statements, maintaining import ordering and grouping. 
+
+[Visit website →](https://kapitanov.github.io/xgoimports/)
+
+![Go](https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+
 ## [Moex Bond Recommender](https://github.com/kapitanov/moex-bond-recommender)
 
 A web service that provides basic analytics on MOEX's bonds.
